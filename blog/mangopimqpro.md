@@ -1,10 +1,10 @@
 # Buying a RISC V SBC
 I recently bought a [Mango Pi MQ-Pro](https://github.com/mangopi-sbc/MQ-Pro). 
 ![](assets/mangopi.png)
-This Single Board Computer (SBC) that has the same factor form of a Raspberry Pi Zero, but uses RISC V's ISA is built with the D1 System on a Chip (SoC). 
+This Single Board Computer (SBC) has the same factor form of a Raspberry Pi Zero, but uses RISC V's ISA is built with the D1 System on a Chip (SoC). 
 
 ## Searching for information
-The first thing i did when i got it was to start looking for what to do with it and learn something interesting in the process. So i started searching for information in the internet and suddenly i was faced with a lot of documentation and information on the Mango Pi MQ-Pro. Some where:
+The first thing i did when i got it was to start looking for what to do with it and learn something interesting in the process. So i started searching for information in the internet and suddenly i was faced with a lot of documentation and information on the Mango Pi MQ-Pro. Some were:
 - [sunxi's wiki entry](https://linux-sunxi.org/MangoPi_MQ-Pro)
 - [boosterl's awesome-mango-pi-mq-pro repository](https://github.com/boosterl/awesome-mango-pi-mq-pro)
 
