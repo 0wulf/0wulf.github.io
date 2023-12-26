@@ -29,16 +29,16 @@ Then, I figured out that to get any UART information through the adapter, I need
 
 Now, with UART, I was able to look at what was happening inside the SBC at a low level but not as low as pure binary. This, plus the Arch Linux installation, enabled me to get a terminal and configure the WiFi and other stuff.
 
-### Build, configure, upload, configure
+### Build, configure, upload, configure and connect through a terminal
 Nowadays, I'm using sehraf’s [d1-riscv-arch-image-builder](https://github.com/sehraf/d1-riscv-arch-image-builder) bash scripts for building and uploading to the micro SD card. I’ve modified it to my needs such that I don't need to configure the OS through getting a terminal (tty) with UART, but it configures all the things I need, including an OpenSSH server for me to connect through my network.
 
-Note the messages of the form "[   xx.xxxxxx] aaaa[y]: bbbbbb." and the form "[  OK  ] aaaa." The first, from the bootloader, and the second from the kernel (`dmesg`, `journalctl`, etc.). Later I will play with these type of messages, maybe building a device driver...
+Note the messages of the form "[   1x.xxxxxx] aaaa[y]: bbbbbb." and the form "[  OK  ] aaaa." The first, from the bootloader, and the second from the kernel (`dmesg`, `journalctl`, etc.). Later I will play with these type of messages, maybe building a device driver...
 
 <div align=center>
   <img src="assets/mangopi-tty1.png" width="600" /> 
 </div>
 
-Finally, i got a `bash` shell by logging in. Something i configured was the name of the device:
+Finally, i got a bash shell by logging in. Something i configured was the name of the device:
 
 <div align=center>
   <img src="assets/mangopi-tty.png" width="600" /> 
