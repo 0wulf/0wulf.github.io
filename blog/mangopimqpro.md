@@ -2,6 +2,8 @@
 ## Buying a RISC V SBC
 I recently bought a [Mango Pi MQ-Pro](https://github.com/mangopi-sbc/MQ-Pro). 
 ![](assets/mangopi.png)
+
+
 This Single Board Computer (SBC) has the same form factor of a Raspberry Pi Zero, but uses RISC V's ISA and is built with the [Allwinner D1](https://linux-sunxi.org/D1) System on a Chip (SoC). 
 
 ## Searching for information
@@ -12,8 +14,11 @@ The first thing I did when I got it was to start looking for what to do with it 
 ## How to communicate with the board and operating system
 With this new information, I tried to find a way to communicate with the SBC. Initially, I tried with [xfel](https://github.com/xboot/xfel)  but found it painful because it seemed that I didn't want to read/write such low-level data/instructions to RAM or ROM, as I don't understand it that well (although I was able to write information to turn on and off an LED).
 ![](assets/mangopi-led.png)
+
+
 I opted to use UART and got a 3.3V UART to USB adapter, soldering it to the I/O pins as usual.
 ![](assets/mangopi-uart.png)
+
 
 Then, I figured out that to get any UART information through the adapter, I needed something to generate that information. I wondered what if I wrote that information, but suddenly (fake, took me some time) realized that I wasn't going to waste my time writing my own OS, so I downloaded images of various OS, hopped through them distros, and finally found that the best one for this was [Arch Linux](https://archriscv.felixc.at/) (as usual).
 
