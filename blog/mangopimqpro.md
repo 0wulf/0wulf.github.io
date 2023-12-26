@@ -31,3 +31,11 @@ Now, with UART, I was able to look at what was happening inside the SBC at a low
 
 ### Build, configure, upload, configure
 Nowadays, I'm using sehraf’s [d1-riscv-arch-image-builder](https://github.com/sehraf/d1-riscv-arch-image-builder) bash scripts for building and uploading to the micro SD card. I’ve modified it to my needs so that I don't need to configure the OS through getting a terminal with UART, but it configures all I need, including an SSH server for me to connect through my network.
+
+<div align=center>
+  Note the messages of the form "[   xx.xxxxxx] aaaa[y]: bbbbbb." and the form "[  OK  ] aaaa." The first, from the bootloader, and the second from the kernel (dmesg, journalctl, etc.).
+  <img src="assets/mangopi-tty1.png" width="600" /> 
+  finally, i got a shell by logging in.
+  <img src="assets/mangopi-tty.png" width="600" /> 
+  Something i configured was the name of the device.
+</div>
