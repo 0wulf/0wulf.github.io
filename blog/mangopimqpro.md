@@ -2,8 +2,9 @@
 ## Buying a RISC V SBC
 I recently bought a [Mango Pi MQ-Pro](https://github.com/mangopi-sbc/MQ-Pro).
 
-<img src="assets/mangopi.png" width="200" /> 
-
+<div text-align="center">
+<img src="assets/mangopi.png" width="600" /> 
+</div>
 
 
 This Single Board Computer (SBC) has the same form factor of a Raspberry Pi Zero, but uses RISC V's ISA and is built with the [Allwinner D1](https://linux-sunxi.org/D1) System on a Chip (SoC). 
