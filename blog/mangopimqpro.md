@@ -10,9 +10,11 @@ I recently bought a [Mango Pi MQ-Pro](https://github.com/mangopi-sbc/MQ-Pro).
 This Single Board Computer (SBC) has the same form factor of a Raspberry Pi Zero, but uses RISC V's ISA and is built with the [Allwinner D1](https://linux-sunxi.org/D1) System on a Chip (SoC). 
 
 ## Searching for information
-The first thing I did when I got it was to start looking for what to do with it and learn something interesting in the process. So, I began searching for information on the internet and suddenly was faced with a lot of documentation and information on the Mango Pi MQ-Pro. Some sources included:
+The first thing I did when I got it was to start looking for what to do with it and learn something interesting in the process. So, I began searching for information on the internet and suddenly was faced with a lot of documentation and information on the Mango Pi MQ-Pro. Some examples:
 - [sunxi's wiki entry](https://linux-sunxi.org/MangoPi_MQ-Pro)
 - [boosterl's awesome-mango-pi-mq-pro repository](https://github.com/boosterl/awesome-mango-pi-mq-pro)
+
+Also found a lot of low-level information and discussion in github written in mandarin, which I didn't even try to translate (maybe for the future).
 
 ## How to communicate with the board and operating system
 With this new information, I tried to find a way to communicate with the SBC. Initially, I tried with [xfel](https://github.com/xboot/xfel)  but found it painful because it seemed that I didn't want to read/write such low-level data/instructions to RAM or ROM, as I don't understand it that well (although I was able to write information to turn on and off an LED).
@@ -20,7 +22,7 @@ With this new information, I tried to find a way to communicate with the SBC. In
   <img src="assets/mangopi-led.png" width="600"/> 
 </div>
 
-I opted to use UART and got a 3.3V UART to USB adapter, soldering it to the I/O pins as usual.
+I opted to use UART and got a 3.3V UART to USB adapter, connecting to the soldered I/O pins as usual.
 <div align=center>
   <img src="assets/mangopi-uart.png" width="600" /> 
 </div>
