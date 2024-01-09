@@ -34,7 +34,7 @@ Now, with UART, I was able to look at what was happening inside the SBC at a low
 ### Build, configure, upload, configure and connect through a terminal
 Nowadays, I'm using sehraf’s [d1-riscv-arch-image-builder](https://github.com/sehraf/d1-riscv-arch-image-builder) bash scripts for building and uploading to the micro SD card. I’ve modified it to my needs such that I don't need to configure the OS through getting a terminal (tty) with UART, but it configures all the things I need, including an OpenSSH server for me to connect through my network.
 
-Note the messages of the form "[  OK  ] aaaa." and the form "[   1x.xxxxxx] aaaa[y]: bbbbbb.". The first, from the bootloader, and the second from the kernel (`dmesg`, `journalctl`, etc.). Later I will play with these type of messages, maybe building a device driver...
+Note the messages of the form "[  OK  ] aaaa." and the form "[   1x.xxxxxx] aaaa[y]: bbbbbb.". The first, from the bootloader, and the second from the kernel (`dmesg`, `journalctl`, etc.). This type of messages help when building a device driver for e.g. an I2C LCD display.
 
 <div align=center>
   <img src="assets/mangopi-tty1.png" width="600" /> 
