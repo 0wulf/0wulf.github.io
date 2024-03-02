@@ -10,7 +10,7 @@ I hope you enjoy it!
 ### Posts:
 - [Mango Pi MQ Pro](blog/mangopimqpro.html)
 - [Airoplus WAR-2450-150N for the Mango Pi](blog/airoplus-warrior.md)
-- [Arduino Uno MIDI controller]()
+- [Arduino Uno MIDI controller WIP]()
 
 ### Small how to's:
 - 
