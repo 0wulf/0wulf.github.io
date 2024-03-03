@@ -1,0 +1,9 @@
+- [Computer Security - UC Berkeley](https://textbook.cs161.org/)
+- [[Linux Kernel Development, 3rd Edition.pdf]]
+- [[Networking for systems administrators.pdf]]
+- [Writing USB Device Drivers](https://www.kernel.org/doc/html/latest/driver-api/usb/writing_usb_driver.html)
+- [The Linux Kernel Documentation](https://www.kernel.org/doc/html/latest/index.html)
+- [Linux Device Drivers, Third Editions](https://lwn.net/Kernel/LDD3/)
+- [LWN Security Index](https://lwn.net/Security/Index/)
+- [LWN Kernel Index](https://lwn.net/Kernel/Index/)
+- [Linux Wi-Fi Driver Tutorial](https://www.apriorit.com/dev-blog/645-lin-linux-wi-fi-driver-tutorial-how-to-write-simple-linux-wireless-driver-prototype)
