@@ -2,7 +2,7 @@
 This USB WiFi dongle uses the Ralink RT-3070L chipset. This chipset allows me to inject packets in the air for executing e.g. a replay attack.
 
 ## Objective
-I want to connect it to the [Mango Pi MQ-Pro](blog/mangopimqpro.md), in my road to a Mango Pi MQ-Pro cyberdeck. 
+I want to connect it to the [Mango Pi MQ-Pro](mangopimqpro.md), in my road to a Mango Pi MQ-Pro cyberdeck. 
 
 ## Investigation
 For this, I investigated a lot about kernel modules for device drivers and started writing code for the device. Little did I know that this would be very difficult considering that I was going to need to talk to the firmware, but it was my only choice because the driver wasn't ported yet (fake, it was but i didn't knew how to look for it). 

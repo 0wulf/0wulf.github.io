@@ -11,7 +11,6 @@ I hope you enjoy it!
 - [Mango Pi MQ Pro - Arch linux installation](blog/mangopimqpro.html)
 - [Airoplus WAR-2450-150N for the Mango Pi](blog/airoplus-warrior.md)
 - [HTB Appointment Writeup](blog/appointment-HTB.md)
-- [Enumeración](blog/Enumeración.md)
 - [Fuck yeah repos](blog/fuck-yeah-repos.md)
 - [Crear imagen de una microSD](blog/crear-una-imagen-de-una-micro-sd.md)
 - [GNU Netcat cheatsheet](blog/netcat-cheatsheet.md)
