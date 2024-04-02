@@ -5,4 +5,4 @@ Here I save things that I have been learning or that i want to save about picoct
 :%!xxd -r
 ```
 
-This trick is useful for escalating privileges. It allows to pop a shell when user has permissions over vim binary.
+This trick (piping things in vim with `:%!`) is useful for escalating privileges. It allows to pop a shell when user has permissions over vim binary.

@@ -4,6 +4,8 @@
 - [tldr](https://github.com/tldr-pages/tldr)
 - [btop](https://github.com/aristocratos/btop)
 - [shell_gpt](https://github.com/TheR1D/shell_gpt)
+- [tgpt](https://github.com/aandrew-me/tgpt)
+
 
 # InfoSec
 - [PEASS-ng - Privilege Escalation Awesome Scripts SUITE new generation](https://github.com/carlospolop/PEASS-ng)
@@ -14,4 +16,5 @@
 - [nginxpwner](https://github.com/stark0de/nginxpwner)
 - [Awesome Privilege Escalation](https://github.com/m0nad/awesome-privilege-escalation)
 - [PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)
-
+- [IoTSecurity101](https://github.com/V33RU/IoTSecurity101)
+- [ESP32Marauder](https://github.com/justcallmekoko/ESP32Marauder)
