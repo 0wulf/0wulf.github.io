@@ -1,6 +1,9 @@
 # Airoplus Warrior USB WiFi Dongle WAR-2450-150N and the Mango Pi MQ Pro
 This USB WiFi dongle uses the Ralink RT-3070L chipset. This chipset allows me to inject packets in the air for executing e.g. a replay attack.
-![Airoplus Warrior USB WiFi Dongle WAR-2450-150N](assets/warrior.jpeg)
+
+<div align=center>
+    <img src="assets/warrior.jpeg" width="600" />
+</div>
 
 ## Objective
 I want to connect it to the [Mango Pi MQ-Pro](mangopimqpro.md), in my road to a Mango Pi MQ-Pro cyberdeck. 
