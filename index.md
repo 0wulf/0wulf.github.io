@@ -10,6 +10,9 @@ I hope you enjoy it!
 ### Posts:
 - [Mango Pi MQ Pro - Arch linux installation](blog/mangopimqpro.html)
 - [Airoplus WAR-2450-150N for the Mango Pi](blog/airoplus-warrior.md)
+- [Installing ESP32 Marauder in an ESP32+TTF display](blog/esp32marauder.md)
+
+### Small entries
 - [Fuck yeah repos](blog/fuck-yeah-repos.md)
 - [Crear imagen de una microSD](blog/crear-imagen-de-una-micro-sd.md)
 - [GNU Netcat cheatsheet](blog/netcat-cheatsheet.md)
