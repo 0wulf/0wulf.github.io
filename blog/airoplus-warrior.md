@@ -16,13 +16,13 @@ While looking into the kernel source, I realized that the RT2x00 modules were in
 So, obviously, I modified the scripts and included the kernel configurations for that. Then, I was able to get the RT2x00 kernel module inside the build. It worked. 
 
 ## Outcome
-At that ppoint, I was a step closer to the Mango Pi MQ-Pro cyberdeck. I am able to inject and sniff packets. 
+At that point, I was a step close in my road to the Mango Pi MQ-Pro cyberdeck. Now I am able to inject and sniff packets. 
 
-## Evolution
+## Next steps
 Some next steps are:
 - Solder the I/O pins
-- Using the board's WiFi chipset as Access point for controlling it with my phone via http server
+- Setup the board's WiFi chipset as Access point for controlling it with my phone via http server
 - Connecting a suitable battery, lcd pannel and a mini keyboard.
 
-## Fried pins
-Sadly, I won't be ablo to do much, as I fries the board while trying to solder the I/O pins. Next time I'll probably use a solder station or ask someone to do it for me.
+## Outcome: Fried pins
+Sadly, I won't be able to do much, as I fried the board while trying to solder the I/O pins. Next time I'll probably use a solder station or ask someone to do it for me.
