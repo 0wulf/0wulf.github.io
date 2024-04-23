@@ -2,7 +2,18 @@
 I recently received an ESP32-WROOM-32 develop module, which I used for a while for playing with it and testing its capabilities. 
 
 ## The ESP32 Marauder
-Surfing the web, I found a project called ESP32 Marauder, which is an image for a prebuilt device that the author of the project sells, although he also sells the DIY kits and as the code is open source, we can build our own device. 
+Surfing the web, I found a project called [ESP32 Marauder](https://github.com/justcallmekoko/ESP32Marauder), which is a builer of firmware for a prebuilt device that the author of the project sells, although he also sells the DIY kits and as the code is open source, we can build our own device. 
+
+## What can the ESP32 Marauder do?
+- Sniff IEEE802.11 packets
+- Sniff probes, beacons, deauth packets, handshake.
+- Sniff bluetooth devices
+- Flood with WiFi and Bluetooth packets
+- Cloning and creating arbitrary APs
+- Set up an Evil Portal
+- Crash iPhones through Sour Apple attack
+- etc.
+If you are interested on all what can this device can do, visit the [official wiki](https://github.com/justcallmekoko/ESP32Marauder/wiki).
 
 ## Compiling and flashing ESP32 Marauder to a generic ESP32-WROOM-32
 I decided to install it in my ESP32 and see how it works. In a few hours I was able to have a functional ESP32 Marauder, but it was a little bit tedious to manipulate, as it needed to be controlled by a serial terminal due to my lack of a TTF display. 
@@ -36,11 +47,17 @@ Fr4nkFletcher's repo shares a [Web Flasher utility](https://fr4nkfletcher.github
 
 The only thing that I had to install in my VM was Google Chrome as that browser had the capabilities to flash to USB devices. Maybe I only needed the chromium package, but I didn´t care.
 
-Finally, I was able to flash a functional ESP32 Marauder version to my ESP32+TTF device.
+## Outcome
+Finally, thanks to the web flasher I was able to flash a functional ESP32 Marauder version to my ESP32+TTF device.
 
 <div align=center>
     <img src="assets/working-marauder.jpeg" width="400" />
 </div>
 
 ## Answering the question - Has hacking become too accessible?
-...
+Although this whole blog entry may suggest nowadays hacking is too accesible, don't be fooled and think twice. It is true that hacking has become more and more accessible, in such a way that I was able to get a functional WiFi+BT penetration testing tool for less than two dollars. But this doesn't mean that we have an excess on how accessible this devices are: it hasn't became *too* accessible.
+As more and more devices like this are published and people start to get their hands on them, people start talking about them and people start aknowledge the need for more secure technologies and systems. 
+
+This devices take advantage of different _known_ attacks and vulnerabilites. The key word here is _known_ as this devices only make it more accessible to attackers to get their hands on this methods, but a flawed technology is flawed even though people have access to tools for attacking them. The problem is not the accessibility to this tools, the problem are the vulnerabilities and low action on patching this flaws, low action that many times is driven by how may the users feel about the changes (e.g. the obvious solution to radio car key stealing and all its falvours is just using a physical key, but users don't want to use that key, they prefer to use a remote key).
+
+
