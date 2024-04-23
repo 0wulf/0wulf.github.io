@@ -2,7 +2,7 @@
 I recently received an ESP32-WROOM-32 develop module, which I used for a while for playing with it and testing its capabilities. 
 
 ## The ESP32 Marauder
-Surfing the web, I found a project called [ESP32 Marauder](https://github.com/justcallmekoko/ESP32Marauder), which is a builer of firmware for a prebuilt device that the author of the project sells, although he also sells the DIY kits and as the code is open source, we can build our own device. 
+Surfing the web, I found justcallmekoko's [ESP32 Marauder](https://github.com/justcallmekoko/ESP32Marauder) project, which is a firmware compiler for a prebuilt device that the author of the project sells, although he also sells the DIY kits and as the code is open source, we can build our own device. 
 
 ## What can the ESP32 Marauder do?
 - Sniff IEEE802.11 packets
@@ -13,7 +13,7 @@ Surfing the web, I found a project called [ESP32 Marauder](https://github.com/ju
 - Set up an Evil Portal
 - Crash iPhones through Sour Apple attack
 - etc.
-If you are interested on all what can this device can do, visit the [official wiki](https://github.com/justcallmekoko/ESP32Marauder/wiki).
+If you are interested on all what can this device can do, visit the [official wiki](https://github.com/justcallmekoko/ESP32Marauder/wiki) or search in youtube for demos.
 
 ## Compiling and flashing ESP32 Marauder to a generic ESP32-WROOM-32
 I decided to install it in my ESP32 and see how it works. In a few hours I was able to have a functional ESP32 Marauder, but it was a little bit tedious to manipulate, as it needed to be controlled by a serial terminal due to my lack of a TTF display. 
