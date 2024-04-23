@@ -1,10 +1,40 @@
-# Installing ESP32 Marauder in an ESP32 + TTF display
-I recently received an ESP32, which I used for a while for playing with it and testing its capabilities. Surfing the web, I found a project called ESP32 Marauder, which is an ESP32 project that lets you do a lot of WiFi penetration testing and hacking. I decided to install it in my ESP32 and see how it works. In a few hours I was able to have a functional ESP32 Marauder, but it was a little bit tedious to manipulate, as it needed to be controlled by a serial terminal due to my lack of a TTF display. 
+# ESP32 Marauder - Has hacking become too accesible?
+I recently received an ESP32 develop module, which I used for a while for playing with it and testing its capabilities. 
 
-I decided to buy a display. In Aliexpress, I found this [ESP32+TTF display device](https://www.aliexpress.com/item/1005006604267846.html), which costed me only 2 bucks!!
+Surfing the web, I found a project called ESP32 Marauder, which is an image for a prebuilt device that the author of the project sells, although he also sells the DIY kits and as the code is open source, we can build our own device. 
+
+I decided to install it in my ESP32 and see how it works. In a few hours I was able to have a functional ESP32 Marauder, but it was a little bit tedious to manipulate, as it needed to be controlled by a serial terminal due to my lack of a TTF display. 
+
+So naturally, it was time for an upgrade. In Aliexpress, I found this [ESP32+TTF display device](https://www.aliexpress.com/item/1005006604267846.html), which I bought for less than two bucks taking advantage of the new account bonus discounts.
 <div align=center>
     <img src="assets/esp32-ttf-1.jpeg" width="600" />
     <img src="assets/esp32-ttf-2.jpeg" width="600" />
 </div>
 
-I received it in less than two weeks. Currently I am working on this project. I will keep you updated on my progress. 
+In less than two weeks, I had the cheap ESP32+TTF display in my hands. So it was time to get my hands dirty again and somehow, be able to build a fully functional ESP32 Marauder.
+
+As I already had look into the code and successfuly modified it to run in my ESP32, I figured out that maybe the best choice was to do the same with the ESP32+TTF. Sadly, I wasn't able to do that, as a lot of errors popped up, errors that trying to fix lead me to no more functionality as the TTY ESP32 Marauder that I first built.
+
+I had to try a different approach. This time, I investigated if someone had already done this, which I knew it was true as someone had commented a picture of his ESP32+TTF running ESP32 Marauder at Aliexpress where I bought the device.
+
+After some little investigation, I found a GitHub repository that was just that, a compiler for the code that someone had successfully built the project for the cheap ESP32+TTF. It also linked to another repo with step if you wanted to modify the code yourself.
+- [reponame](repolink)
+- [reponame](repolink)
+
+I cloned the first and also modified the code by myself before buulding, but both of the approaches led me to the same: I was able to compile but the display appeared just white.
+
+After breaking my head with all the errors the compilation had, and the failing code I was able to compile, I decides to look for a precompiled image that I could just upload and get it running. As it may look, this is indeed the easyest way to do so. 
+
+...'s repo shares a Web Flasher utility for flashing the device I had. This seemed a little to good to be true, so as I was going to give controll of the TTY devices to my browser, maybe it could escalate privileges from there? I am not sure about this but neither I was about risking my security. As I already have a configured Ubuntu VM, I did the flashing from inside that VM, and bridged the USB port to the VM. 
+
+The only thing that I had to install in my VM was Google Chrome as that browser had the capabilities to flash to USB devices.
+
+Finally, I was able to flash a functional ESP32 Marauder version to my ESP32+TTF device.
+
+image
+
+closing paragraph
+
+titles
+review
+
