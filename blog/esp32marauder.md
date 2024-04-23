@@ -4,9 +4,10 @@ Recently, I received an ESP32-WROOM-32 develop module, which I used for a while 
 ## The ESP32 Marauder
 Surfing the web, I found justcallmekoko's [ESP32 Marauder](https://github.com/justcallmekoko/ESP32Marauder) project, which is a firmware compiler for a prebuilt device that the author of the project sells, although he also sells the DIY kits and as the code is open source, we can build our own device. 
 
+The ESP32 Marauder is a device which provide a suite of tools for both offensive and defensive security.
 ## What can the ESP32 Marauder do?
 - Sniff IEEE802.11 packets, like probes, beacons, deauth packets, handshake.
-- Sniff bluetooth devices
+- Sniff Bluetooth devices
 - Flood with WiFi and Bluetooth packets
 - Cloning and creating arbitrary APs
 - Set up an Evil Portal
