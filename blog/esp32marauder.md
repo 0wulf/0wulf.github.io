@@ -1,6 +1,6 @@
 # ESP32 Marauder - Has hacking become too accesible?
 Recently, I received an ESP32-WROOM-32 develop module, which I used for a while to play with and test its capabilities. 
-
+Then I thought, what can people hack with this little device?
 ## The ESP32 Marauder
 Surfing the web, I found justcallmekoko's [ESP32 Marauder](https://github.com/justcallmekoko/ESP32Marauder) project. The ESP32 Marauder is a device which provide a suite of tools for both offensive and defensive security. 
 
