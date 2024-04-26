@@ -3,9 +3,9 @@
 - [fzf](https://github.com/junegunn/fzf)
 - [tldr](https://github.com/tldr-pages/tldr)
 - [btop](https://github.com/aristocratos/btop)
-- [shell_gpt](https://github.com/TheR1D/shell_gpt)
+- [iftop](https://github.com/soarpenguin/iftop)
 - [tgpt](https://github.com/aandrew-me/tgpt)
-
+- [lazygit](https://github.com/jesseduffield/lazygit)
 
 # InfoSec
 - [PEASS-ng - Privilege Escalation Awesome Scripts SUITE new generation](https://github.com/carlospolop/PEASS-ng)
