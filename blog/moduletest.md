@@ -10,7 +10,7 @@ Lo curioso fue cuando salí, descubrí cientos de estos dispositivos con este mi
 
 
 
-¿La teoría actual? Dispositivos de IoT con alguna versión modificada del firmware de Tuya. Algún desarrollador de las modificaciones ha de haber creído buena idea permitir a cualquiera testear el producto (e.g. en luces led es típico un test que pasa por 4 colores RGBW de 0 a 255 para que el usuario/operador pueda verificar que el dispositivo está funcionando correctamente) Lo cierto es que en versiones oficiales del firmware de Tuya, el momento en el que uno puede gatillar los tests es antes de los primeros 500ms ⏱️, no en cualquier momento por alguien que esté cerca del dispositivo (como sí ocurre en el firmware modificado), en especial no queremos gatillar el test en pleno funcionamiento del dispositivo, o podría denegarse el servicio.
+¿La teoría actual? Dispositivos de IoT con alguna versión modificada del firmware de Tuya. Algún desarrollador de las modificaciones ha de haber creído buena idea permitir a cualquiera testear el producto (e.g. en luces led es típico un test que pasa por 4 colores RGBW de 0 a 255 para que el usuario/operador pueda verificar que el dispositivo está funcionando correctamente) Lo cierto es que en versiones oficiales del firmware de Tuya, el momento en el que uno puede gatillar los tests es antes de los primeros 500ms, no en cualquier momento por alguien que esté cerca del dispositivo (como sí ocurre en el firmware modificado), en especial no queremos gatillar el test en pleno funcionamiento del dispositivo, o podría denegarse el servicio.
 
 
 Se puede levantar un AP del mismo nombre "moduletest" e interactuar con los dispositivos, responsivos en el puerto 6668 como se sugiere en [1], de modo que, si tuviera uno de estos podría hacer dump del firmware, facilitando el crafteo de un payload.
@@ -22,19 +22,27 @@ A pesar de todo esto ¡todavía no logro pararme frente a uno de estos dispositi
 
 1. Algunos dispositivos en el mapa
 
-![](assets/mapa.png)
+<div align=center>
+  <img src="assets/mapa.png" width="600" /> 
+</div>
 
 2. Wardriver
 
-![](assets/wardriver.png)
+<div align=center>
+  <img src="assets/wardriver.png" width="600" /> 
+</div>
 
 3. Donde he capturado las señales más fuertes
 
-![](assets/señales.png)
+<div align=center>
+  <img src="assets/señales.png" width="600" /> 
+</div>
 
 4. Dispositivos enviando probe requests a "moduletest" 
 
-![](assets/probe.png)
+<div align=center>
+  <img src="assets/probe.png" width="600" /> 
+</div>
 
 ## Referencias
 
@@ -54,5 +62,3 @@ Current theory? IoT devices with a modified version of Tuya's firmware. A develo
 You can set up an AP with the same name "moduletest" and interact with the devices, which respond on port 6668 as suggested in [1], so if I had one of these, I could dump the firmware, facilitating the crafting of a payload.
 
 Despite all this, I still haven’t managed to stand in front of one of these devices! Looks like I'll need to get a drone to track the signals.
-
-

@@ -11,7 +11,7 @@ I hope you enjoy it!
 - [Mango Pi MQ Pro - Arch linux installation](blog/mangopimqpro.html)
 - [Airoplus WAR-2450-150N for the Mango Pi](blog/airoplus-warrior.md)
 - [Installing ESP32 Marauder in an ESP32+TTF display](blog/esp32marauder.md)
-- [Moduletest rabbithole)](blog/moduletest.md)
+- [Moduletest rabbithole](blog/moduletest.md)
 
 ### Small entries
 - [Fuck yeah repos](blog/fuck-yeah-repos.md)
