@@ -20,25 +20,25 @@ A pesar de todo esto ¡todavía no logro pararme frente a uno de estos dispositi
 ## Imágenes
 
 
-1. Algunos dispositivos en el mapa
+#### Algunos dispositivos en el mapa
 
 <div align=center>
   <img src="assets/mapa.png" width="600" /> 
 </div>
 
-2. Wardriver
+#### Wardriver
 
 <div align=center>
   <img src="assets/wardriver.png" width="600" /> 
 </div>
 
-3. Donde he capturado las señales más fuertes
+#### Donde he capturado las señales más fuertes
 
 <div align=center>
   <img src="assets/señales.png" width="600" /> 
 </div>
 
-4. Dispositivos enviando probe requests a "moduletest" 
+#### Dispositivos enviando probe requests a "moduletest" 
 
 <div align=center>
   <img src="assets/probe.png" width="600" /> 
