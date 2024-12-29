@@ -12,6 +12,7 @@ I hope you enjoy it!
 - [Airoplus WAR-2450-150N for the Mango Pi](blog/airoplus-warrior.md)
 - [Installing ESP32 Marauder in an ESP32+TTF display](blog/esp32marauder.md)
 - [Moduletest rabbithole](blog/moduletest.md)
+- [Hacking D-Link's DCS-5222L IP camera](blog/dcs-5222l.md)
 
 ### Small entries
 - [Fuck yeah repos](blog/fuck-yeah-repos.md)
