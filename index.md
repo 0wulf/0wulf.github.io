@@ -24,6 +24,7 @@ I hope you enjoy it!
 - [Screen size in linux with xrandr](blog/screen-size-with-xrandr-in-linux.md)
 - [TTY treatment](blog/tty-treatment.md)
 - [HTB Appointment Writeup - How to leverage a SQL injection](blog/appointment-HTB.md)
+- [Docker 28 in AWS Linux](blog/docker-28-aws-linux.md)
 
 ### Disclaimer: 
 This is currently a work-in-progress blog. All entries are going to receive frequent updates as long as I can.
