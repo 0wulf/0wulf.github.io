@@ -79,8 +79,9 @@ python spooftastic.py send \
 
 When executed, this command injects a message that the victim node accepts and displays as a direct message, despite it not being encrypted with the victim’s public key. 
 
-IMAGES HERE
-
+<div align=center>
+  <img src="assets/base_ui.png" width="600" /> 
+</div>
 
 ## Coordinated Disclosure
 
