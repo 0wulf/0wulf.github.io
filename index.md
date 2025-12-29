@@ -13,6 +13,7 @@ I hope you enjoy it!
 - [Installing ESP32 Marauder in an ESP32+TTF display](blog/esp32marauder.md)
 - [Moduletest rabbithole](blog/moduletest.md)
 - [Hacking D-Link's DCS-5222L IP camera](blog/dcs-5222l.md)
+- [Spoofing Meshtastic DMs via cryptografic downgrade attack](blog/spooftastic.md) 
 
 ### Small entries
 - [Fuck yeah repos](blog/fuck-yeah-repos.md)
