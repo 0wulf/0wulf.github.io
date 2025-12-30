@@ -14,7 +14,7 @@ The vulnerability originates from how Meshtastic handles **direct message decryp
 
 This creates a downgrade opportunity where **a legacy-encrypted message can be accepted and displayed as if it were a PKI-encrypted direct message**, even though no asymmetric encryption was involved.
 
-If an attacker knows the shared channel key (which is common on public or default channels) it can inject messages that appear to come from another node and appear to be encrypted with PKI, enabling DM spoofing attacks via cryptographic downgrade.
+If an attacker knows a shared channel key (which is common on public or default channels) it can inject messages that appear to come from another node and appear to be encrypted with PKI, enabling DM spoofing attacks via cryptographic downgrade.
 
 
 ## Proof of Concept: Spoofed Direct Messages
@@ -82,7 +82,7 @@ When executed, this command injects a message that the victim node accepts and d
 </div>
 
 <div align=center>
-   <i>Figure 1: Spoofed message thorugh the Base UI.</i>
+   <i>Figure 1: Spoofed message through the Base UI.</i>
 </div>
    
 <div align=center>
@@ -94,7 +94,7 @@ When executed, this command injects a message that the victim node accepts and d
 </div>
 
 ## Why is this important?
-Bots and BBS (Buleltin Board) systems tend to rely on text messages and DMs for commands. This attack can be leveraged for unauthorized command execution.
+Bots and BBS (Bulletin Board) systems tend to rely on text messages and DMs for commands. This attack can be leveraged for unauthorized command execution.
 
 ## Coordinated Disclosure
 
