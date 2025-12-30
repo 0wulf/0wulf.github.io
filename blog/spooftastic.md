@@ -58,8 +58,8 @@ pip install -r requirements.txt
 
 For this example:
 
-* **Attacker node:** `!deadbeef`
-* **Victim node:** `!abcd1234`
+* **Spoofed node:** `!abcd1234`
+* **Victim node:** `!1234abcd`
 * **Channel:** `LongFast`
 * **Channel key:** `AQ==` (default key)
 
@@ -69,11 +69,11 @@ The attacker sends a crafted direct message that intentionally triggers the lega
 
 ```bash
 python spooftastic.py send \
-  --from-node '!deadbeef' \
+  --from-node '!abcd1234' \
   --gateway-node '!deadbeef' \
-  --to-node '!abcd1234' \
+  --to-node '!1234abcd' \
   message \
-  --message 'Spoofed message'
+  --message 'Sp00f3d'
 ```
 
 When executed, this command injects a message that the victim node accepts and displays as a direct message, despite it not being encrypted with the victim’s public key. 
