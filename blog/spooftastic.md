@@ -96,6 +96,9 @@ When executed, this command injects a message that the victim node accepts and d
 ## Why is this important?
 Bots and BBS (Bulletin Board) systems tend to rely on text messages and DMs for commands. This attack can be leveraged for unauthorized command execution.
 
+## Call to Action
+Meshtastic firmware [version 2.7.15.567b8ea](https://github.com/meshtastic/firmware/releases/tag/v2.7.15.567b8ea) drops legacy encryption, fixing the issue. It's advised to update your devices.
+
 ## Coordinated Disclosure
 
 This vulnerability was **responsibly disclosed to the Meshtastic maintainers** prior to public release. We worked directly with the Meshtastic team to validate the issue, discuss its impact, and allow time for investigation and remediation before publishing the CVE and proof of concept.
