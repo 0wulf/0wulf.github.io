@@ -100,7 +100,7 @@ Bots and BBS (Bulletin Board) systems tend to rely on text messages and DMs for 
 
 This vulnerability was **responsibly disclosed to the Meshtastic maintainers** prior to public release. We worked directly with the Meshtastic team to validate the issue, discuss its impact, and allow time for investigation and remediation before publishing the CVE and proof of concept.
 
-I would like to thank the Meshtastic maintainers and [randshell](https://github.com/randshell) for their **professionalism, responsiveness, and collaborative handling** of the disclosure.
+I would like to thank [randshell](https://github.com/randshell) as well as the Meshtastic maintainers for their **professionalism, responsiveness, and collaborative handling** of the disclosure.
 
 ## References
 [1] [Meshatstic Security Advisory](https://github.com/meshtastic/firmware/security/advisories/GHSA-377p-prwp-4hwf)
