@@ -77,9 +77,20 @@ python spooftastic.py send \
 ```
 
 When executed, this command injects a message that the victim node accepts and displays as a direct message, despite it not being encrypted with the victim’s public key. 
-
 <div align=center>
   <img src="assets/base_ui.png" width="600" /> 
+</div>
+
+<div align=center>
+   <i>Figure 1: Spoofed message thorugh the Base UI.</i>
+</div>
+   
+<div align=center>
+   <img width="716" height="368" alt="image" src="https://github.com/user-attachments/assets/5ccf30f1-ce75-4b1d-8f7b-e382672c8116" />
+</div>
+
+<div align=center>
+   <i>Figure 2: Spoofed message through Web Client marked as secure.</i>
 </div>
 
 ## Why is this important?
