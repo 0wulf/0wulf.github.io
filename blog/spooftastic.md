@@ -22,7 +22,25 @@ The vulnerability originates from how Meshtastic handles **direct message decryp
 
 This creates a downgrade opportunity where **a legacy-encrypted message can be accepted and displayed as if it were a PKI-encrypted direct message**, even though no asymmetric encryption was involved.
 
-If an attacker knows a shared channel key (which is common on public or default channels) it can inject messages that appear to come from another node and appear to be encrypted with PKI, enabling DM spoofing attacks via cryptographic downgrade.
+If an attacker knows a shared channel key (which is common on public or default channels) it can inject messages that appear to come from another node and appear to be encrypted with PKI, enabling DM spoofing attacks via cryptographic downgrade. Such a MeshPacket and decoded Data, for default LongFast channel, looks something like this:
+
+```
+MeshPacket {
+  from: <spoofed from node number>
+  to: <to node number>
+  channel: 8
+  encrypted: <encrypted Data protobuf with shared AES key AQ==>
+  id: <packet ID>
+  hop_limit: 3
+  want_ack: true
+  hop_start: 3
+}
+Data {
+    portnum: TEXT_MESSAGE_APP
+    payload: <spoofed message>
+    bitfield: 1
+}
+```
 
 The function in charge of decoding and decryption, `perhapsDecode`, now includes a conditional that breaks downgrade as follows:
 ```cpp
