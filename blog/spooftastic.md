@@ -1,4 +1,4 @@
-# Fallback to legacy symmetric encryption in Meshtastic firmware enables downgrade attack and spoofing of direct messages 
+# CVE-2025-53627 :: Fallback to legacy symmetric encryption in Meshtastic firmware enables downgrade attack and spoofing of direct messages 
 During recent research into Meshtastic networks, **[randshell](https://github.com/randshell) and I identified a vulnerability in the Meshtastic firmware** that allows crafted messages to appear as PKI-encrypted direct messages under certain conditions (**[CVE-2025-53627](https://www.cve.org/CVERecord?id=CVE-2025-53627)**).
 
 [Meshtastic](https://github.com/meshtastic/firmware) is a widely used open-source mesh networking platform built around LoRa and MQTT, commonly deployed for off-grid, community communications and even [military operations](https://calderon.cud.uvigo.es/items/5120b2dc-7490-4045-a62e-b633f89aadbd). With the introduction of public-key cryptography (PKI) for direct messages in version 2.5, Meshtastic took an important step toward improving message confidentiality and authenticity.
